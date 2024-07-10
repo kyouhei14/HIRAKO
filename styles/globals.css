@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  /* create a primary  */
+  --primary: #0f0e0e;
+  --secondary: #ffffff;
+  --secondary-light: #d9d9d9 color-scheme: dark;
+}
+
+@layer utilities {
+  .scrollbar-hidden-background {
+    scrollbar-width: thin;
+    /* For Firefox */
+    scrollbar-color: #F2F2F2 transparent;
+    /* For Firefox */
+  }
+
+  .scrollbar-hidden-background::-webkit-scrollbar {
+    width: 4px;
+    /* For Chrome, Safari, and other Webkit browsers */
+  }
+
+  .scrollbar-hidden-background::-webkit-scrollbar-track {
+    background: transparent;
+    /* For Chrome, Safari, and other Webkit browsers */
+  }
+
+  .scrollbar-hidden-background::-webkit-scrollbar-thumb {
+    background-color: #F2F2F2;
+    /* For Chrome, Safari, and other Webkit browsers */
+    border-radius: 2px;
+    /* For Chrome, Safari, and other Webkit browsers */
+    border: 2px solid transparent;
+    /* For Chrome, Safari, and other Webkit browsers */
+    background-clip: content-box;
+    /* For Chrome, Safari, and other Webkit browsers */
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 0.4em;
+  font-family: "Poppins";
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #F2F2F2;
+  /* For Chrome, Safari, and other Webkit browsers */
+  border-radius: 2px;
+  /* For Chrome, Safari, and other Webkit browsers */
+  border: 2px solid transparent;
+  /* For Chrome, Safari, and other Webkit browsers */
+  background-clip: content-box;
+  /* For Chrome, Safari, and other Webkit browsers */
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+p {
+  color: var(--secondary);
+}
+
+.privacy-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+  .alignfull {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    max-width: 1000%;
+    width: auto;
+  }
+}
+
+.custom-shape-divider-bottom-1682184498 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1682184498 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 265px;
+}
+
+.custom-shape-divider-bottom-1682184498 .shape-fill {
+  fill: #e9e0c9;
+}
