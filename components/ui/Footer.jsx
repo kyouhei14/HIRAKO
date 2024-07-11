@@ -1,7 +1,7 @@
 
 import Logo from "../ui/Logo";
 import Link from "next/link";
-import { SiValorant, FaFacebookF, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -31,8 +31,8 @@ function Footer() {
             <Link title="hirako's fb" href="https://facebook.com/hirakoisdead" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
               <FaFacebookF size={25} color="grey " />
             </Link>
-            <Link title="Munchyroll Source Code" href="https://kyouhei14.github.io/rajveer-is-dead/" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
-              <SiValorant size={25} color="grey" />
+            <Link title="portfolio" href="https://kyouhei14.github.io/rajveer-is-dead/" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
+              <FaGithub size={25} color="grey" />
             </Link>
             <Link title="hirako's ig" href="https://instagram.com/hirakoisnumb" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
               <FaInstagram size={25} color="grey" />
