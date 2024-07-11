@@ -6,8 +6,7 @@
 An ad-free anime streaming web app aimed at minimality and responsive design. 
 <br />
 
-### Live demo at [anime.j21.dev](https://Hirwko
-onrender.com)
+### Live demo at [Hirako](https://Hirwko.onrender.com)
 <br />
 
  
