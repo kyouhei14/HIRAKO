@@ -1,6 +1,7 @@
+
 import Logo from "../ui/Logo";
 import Link from "next/link";
-import { SiValorant, FaInstagram, FaFacebookF } from 'react-icons/fa';
+import { SiValorant, FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -24,17 +25,17 @@ function Footer() {
       <footer className="pb-10 px-5 md:px-12 lg:px-16 xl:px-20 2xl:px-24">
         <div className="pt-2 flex justify-between border-t-[2px] border-primary w-full">
           <p className="z-50 dark:text-primary-light text-primary text-sm">
-            Made with ❤️ by <Link title="Rajveer" className="hover:text-blue-400 dark:text-secondary text-primary underline transition-all" rel="noreferrer" target="_blank" href="anime">rajveer</Link>
+            Made with ❤️ by <Link title="Rajveer" className="hover:text-blue-400 dark:text-secondary text-primary underline transition-all" rel="noreferrer" target="_blank" href="manga">Rajveer</Link>
           </p>
           <div className="z-50 flex flex-row items-center space-x-3">
-            <Link title="Hirako's ig" href="https://instagram.com/hirakoisnumb" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
-              <FaInstagram size={25} color="grey " />
+            <Link title="hirako's fb" href="https://facebook.com/hirakoisdead" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
+              <FaFacebookF size={25} color="grey " />
             </Link>
-            <Link title="portfolio" href="https://kyouhei14.github.io/rajveer-is-dead/" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
+            <Link title="Munchyroll Source Code" href="https://kyouhei14.github.io/rajveer-is-dead/" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
               <SiValorant size={25} color="grey" />
             </Link>
-            <Link title="Hirako's fb" href="https://facebook.com/hirakoisdead" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
-              <FaFacebookF size={25} color="grey" />
+            <Link title="Jeydin21's Twitter" href="https://x.com/Jeydin21" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
+              <FaInstagram size={25} color="grey" />
             </Link>
           </div>
         </div>
