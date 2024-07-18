@@ -34,7 +34,7 @@ function Footer() {
             <Link title="portfolio" href="https://kyouhei14.github.io/rajveer-is-dead/" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
               <FaGithub size={25} color="grey" />
             </Link>
-            <Link title="hirako's ig" href="https://instagram.com/hirakoisnumb" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
+            <Link title="hirako's ig" href="https://instagram.com/say.falsee" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
               <FaInstagram size={25} color="grey" />
             </Link>
           </div>
