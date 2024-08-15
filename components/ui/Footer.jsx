@@ -25,7 +25,7 @@ function Footer() {
       <footer className="pb-10 px-5 md:px-12 lg:px-16 xl:px-20 2xl:px-24">
         <div className="pt-2 flex justify-between border-t-[2px] border-primary w-full">
           <p className="z-50 dark:text-primary-light text-primary text-sm">
-            Made with ❤️ by <Link title="Rajveer" className="hover:text-blue-400 dark:text-secondary text-primary underline transition-all" rel="noreferrer" target="_blank" href="rajveer.is-a.dev">Rajveer</Link>
+            Made with ❤️ by <Link title="Hirako" className="hover:text-blue-400 dark:text-secondary text-primary underline transition-all" rel="noreferrer" target="_blank" href="rajveer.is-a.dev">Rajveer</Link>
           </p>
           <div className="z-50 flex flex-row items-center space-x-3">
             <Link title="hirako's fb" href="https://facebook.com/hirakoisdead" target="_blank" rel="noreferrer" className="transition-all hover:scale-125">
